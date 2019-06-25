@@ -1,14 +1,12 @@
-# Drivy Challenges
+Drivy Backend Challenge - Antoine Quellier
 
-If you want to join the engineering team, you will most likely
-have to complete one of our code challenges:
+Hello Drivy Team! This is my backend challenge for a fullstack enginer position in Paris.
 
-- [Backend](https://github.com/drivy/jobs/tree/master/backend)
-- [Frontend](https://github.com/drivy/jobs/tree/master/frontend)
-- [Data](https://github.com/drivy/jobs/tree/master/data)
-- [Reliability](https://github.com/drivy/jobs/tree/master/reliability)
-- [Android](https://github.com/drivy/jobs/tree/master/android)
+I've spent one day on it and I've tried to build as maintainable and scalable as possible.
 
-In order to learn more about [Drivy](https://www.drivy.com/),
-you can head over our [engineering blog](https://drivy.engineering/about/)
-or check out [the currently open positions](https://en.drivy.com/jobs).
+Running `$ ruby main.rb` from each level folder launches the process. The `drivy.rb` file uses the `data/input.json` to create instances of the models present in the `models` folder. Running `rake` from each level folder will launch rubocop to check for style offenses and rspec to run basic tests.
+
+The data is then saved in `data/output.json`.
+
+Thank you for taking the time to read this,
+Hope to hear from you soon :)
